@@ -1,0 +1,27 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+
+@import "./layouts/body" ;
+@import "./layouts/header";
+@import "./layouts/main";
+@import "./layouts/footer";
+
+@import "./layouts/bandasmain";
+@import "./layouts/maindiscos";
+@import "./layouts/maintienda";
+@import "./layouts/maincontacto";
+
+
+@import "./components/cards";
+@import "./components/botones";
+
+@import "./media/media768";
+@import "./media/media480";
+@import "./media/media425";
+@import "./media/media320";
+
+
+
+

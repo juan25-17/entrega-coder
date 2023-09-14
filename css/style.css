@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  padding: 1rem; }
+
+.cabecera {
+  background-color: black; }
+  .cabecera .divPrimero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    color: white;
+    gap: 0.9375rem; }
+  .cabecera .divSegundo {
+    width: 9.375rem; }
+  .cabecera .imagenHeader {
+    width: 100%; }
+  .cabecera .titulo {
+    text-align: center;
+    color: white; }
+  .cabecera nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3.125rem;
+    color: none;
+    gap: none;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem; }
+  .cabecera nav a {
+    padding: .25rem;
+    color: white;
+    font-size: 1.875rem;
+    text-decoration: none;
+    border-radius: .625rem; }
+  .cabecera nav .aInicio {
+    text-decoration: underline; }
+
+main {
+  color: white;
+  background-image: url(../assets/logos.jpg); }
+
+.sectionInformacion {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgba(6, 5, 5, 0.483);
+  padding: 0.75rem;
+  margin-top: .625rem;
+  border: .25rem;
+  border-radius: .625rem;
+  border-style: groove; }
+  .sectionInformacion .divParrafo {
+    padding: 1.25rem;
+    background-color: rgba(36, 35, 35, 0.953);
+    border: 4px;
+    border-radius: 10px; }
+  .sectionInformacion p {
+    font-size: 1.5rem; }
+
+h2 {
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.843); }
+
+.pie .divPie {
+  background-color: black;
+  display: flex;
+  height: 6.25rem;
+  color: white;
+  justify-content: flex-end; }
+
+.imgFooter {
+  width: 3.75rem; }
+
+.sectionInformacionb {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgba(6, 5, 5, 0.483);
+  padding: 0.75rem;
+  margin-top: .625rem;
+  border: .25rem;
+  border-radius: .625rem;
+  border-style: groove; }
+  .sectionInformacionb div {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+    border: 1.25rem;
+    border-radius: .5rem; }
+    .sectionInformacionb div article {
+      display: flex;
+      padding: .625rem; }
+      .sectionInformacionb div article p {
+        padding-left: .625rem;
+        font-size: 1.5rem; }
+      .sectionInformacionb div article img {
+        width: 6.25rem;
+        height: 7.3125rem;
+        border-radius: .625rem;
+        margin: auto;
+        cursor: pointer; }
+        .sectionInformacionb div article img:hover {
+          transform: scale(1.1); }
+
+.sectionInformaciond {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgba(6, 5, 5, 0.483);
+  padding: 0.75rem;
+  margin-top: .625rem;
+  border: .25rem;
+  border-radius: .625rem;
+  border-style: groove; }
+  .sectionInformaciond p {
+    font-size: 1.5rem; }
+  .sectionInformaciond .cardsLinea1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    margin-top: 3.125rem;
+    gap: 8px; }
+
+.sectionInformaciont {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgba(6, 5, 5, 0.483);
+  padding: 0.75rem;
+  margin-top: .625rem;
+  border: .25rem;
+  border-radius: .625rem;
+  border-style: groove; }
+  .sectionInformaciont .divTienda {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    margin-top: 3.125rem;
+    gap: 8px; }
+
+.sectionInformacionc {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgba(6, 5, 5, 0.483);
+  padding: 0.75rem;
+  margin-top: .625rem;
+  border: .25rem;
+  border-radius: .625rem;
+  border-style: groove; }
+  .sectionInformacionc h2 {
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.875rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(59, 59, 63, 0.223); }
+  .sectionInformacionc div {
+    background-color: rgba(116, 115, 115, 0.7); }
+    .sectionInformacionc div .divForm {
+      padding: 1rem; }
+      .sectionInformacionc div .divForm input {
+        font-size: 1rem;
+        width: 100%; }
+
+.cardsInfo, .cardTienda {
+  width: 12.5rem;
+  background-color: rgba(220, 220, 220, 0.28);
+  padding-bottom: .625rem;
+  border-width: .3125rem;
+  border-style: solid;
+  overflow: hidden;
+  border-radius: .25rem;
+  margin: auto;
+  cursor: pointer;
+  transition: 2s; }
+  .cardsInfo:hover, .cardTienda:hover {
+    transform: scale(1.1);
+    transition: 2s; }
+  .cardsInfo .cardH, .cardTienda .cardH, .cardsInfo .cardTienda h3, .cardTienda .cardsInfo h3, .cardTienda h3 {
+    text-align: center; }
+
+.cardTienda {
+  width: 12.5rem;
+  height: 18.75rem;
+  background-color: rgba(255, 255, 255, 0.999);
+  border: .625rem; }
+  .cardTienda h3 {
+    color: black;
+    padding: 1.25rem; }
+
+.cardsInfo button, .cardTienda button {
+  margin-left: 1.5rem;
+  background-color: black; }
+  .cardsInfo button a, .cardTienda button a {
+    color: white; }
+
+.cardTienda button {
+  background-color: black;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  border-radius: .625rem;
+  margin-left: 1.875rem; }
+  .cardTienda button a {
+    color: white; }
+
+.divFormBoton {
+  display: flex;
+  justify-content: center; }
+  .divFormBoton button {
+    padding: 0.25rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    background-color: #575b5b; }
+
+@media (max-width: 768px) {
+  header .divSegundo {
+    width: 30%; }
+    header .divSegundo h1 {
+      align-items: center; } }
+
+.sectionInformacionb {
+  width: 90%;
+  margin: auto; }
+  .sectionInformacionb .arBandas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.sectionInformacion {
+  width: 90%;
+  margin: auto; }
+
+.sectionInformaciond {
+  width: 90%;
+  margin: auto; }
+
+.sectionInformaciont {
+  width: 90%;
+  margin: auto; }
+
+.sectionInformacionc {
+  width: 90%;
+  margin: auto; }
+
+@media (max-width: 425px) {
+  .cabecera .divNav ul a {
+    font-size: 1.5rem;
+    width: 100%; } }
+
+@media (max-width: 320px) {
+  .cabecera div img {
+    display: none; }
+  .cabecera nav ul li a {
+    font-size: 1.25rem;
+    width: 100%; } }

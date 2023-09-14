@@ -1,0 +1,15 @@
+@mixin flex ($align, $justify,$margin, $color, $gap) {
+    display: flex;
+        align-items: $align;
+        justify-content: $justify;
+        margin-top: $margin;
+        color:$color;
+        gap: $gap;
+}
+
+@mixin boton ($padding, $width, $border-radius, $background) {
+        padding: $padding;
+        width: $width;      
+        border-radius: $border-radius;
+        background-color: $background;
+}

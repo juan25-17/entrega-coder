@@ -1,0 +1,37 @@
+.cabecera{
+    background-color: $background-hyf; 
+    .divPrimero {
+        @include flex (center, space-around,1rem, $color-fuentes, .9375rem);
+        
+    }
+    .divSegundo {
+        width: 9.375rem;
+    } 
+    .imagenHeader {width: 100%;}
+    .titulo{
+        text-align: center;
+        color: $color-fuentes;
+    }
+    nav {
+        ul {
+            @include flex (center, space-around, 3.125rem, none, none);
+            margin-right: 1.25rem;
+            margin-left: 1.25rem;
+    
+        }
+        a {
+            padding: .25rem;
+            color: $color-fuentes;
+            font-size: 1.875rem;
+            text-decoration: none;
+            border-radius: .625rem;
+        }
+        .aInicio {
+            text-decoration: underline;
+        }
+
+    }
+}
+
+
+

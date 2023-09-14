@@ -1,0 +1,31 @@
+.cardsInfo{
+    button {
+        margin-left: 1.5rem;
+        background-color: $background-hyf;
+        a{
+            color: $color-fuentes;
+        }
+    }
+}
+.cardTienda {
+    button {
+        background-color: $background-hyf;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        border-radius: .625rem;
+        margin-left: 1.875rem; 
+        a {
+            color: $color-fuentes; 
+        }
+    }
+}
+
+.divFormBoton {
+        display: flex;
+        justify-content: center;
+    button {
+        @include boton (.25rem, 50%, .5rem, rgb(87, 91, 91) )
+    }
+}

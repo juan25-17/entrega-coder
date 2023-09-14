@@ -1,0 +1,27 @@
+.sectionInformacionc{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgba(6, 5, 5, 0.483);
+    padding: 0.75rem;
+    margin-top: .625rem;
+    border: .25rem;
+    border-radius: .625rem;
+    border-style: groove;
+    h2 {
+        text-align: center;
+    padding: 1.25rem;
+    font-size: 1.875rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(59, 59, 63, 0.223);
+    }
+    div {
+        background-color: rgba(116, 115, 115, 0.7);
+        .divForm {
+            padding: 1rem;
+            input {
+                font-size: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}

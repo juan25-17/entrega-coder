@@ -1,0 +1,16 @@
+.sectionInformaciont {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgba(6, 5, 5, 0.483);
+    padding: 0.75rem;
+    margin-top: .625rem;
+    border: .25rem;
+    border-radius: .625rem;
+    border-style: groove;
+    .divTienda {
+            display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        margin-top: 3.125rem;
+        gap: 8px;
+        }
+    }
