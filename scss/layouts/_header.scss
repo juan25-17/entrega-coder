@@ -25,6 +25,10 @@
             font-size: 1.875rem;
             text-decoration: none;
             border-radius: .625rem;
+            &:hover{
+                transition: 3ms;
+                color: rgb(207, 30, 30);
+            }
         }
         .aInicio {
             text-decoration: underline;

@@ -1,9 +1,15 @@
-.pie .divPie {
-    background-color: black;
-    display: flex;
-    height: 6.25rem;
-    color: white;
-    justify-content: flex-end;}
-    .imgFooter {
-        width: 3.75rem;
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    div {
+        display: inline-block;
+        margin: 0 20px;
+        padding-bottom: 1.25rem;
+        img {
+            width: 3.125rem;
+            height: 3.125rem;
+        }
     }
+}

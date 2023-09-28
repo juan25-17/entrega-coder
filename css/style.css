@@ -4,8 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: black;
-  padding: 1rem; }
+  background-color: black; }
 
 .cabecera {
   background-color: black; }
@@ -38,6 +37,9 @@ body {
     font-size: 1.875rem;
     text-decoration: none;
     border-radius: .625rem; }
+    .cabecera nav a:hover {
+      transition: 3ms;
+      color: #cf1e1e; }
   .cabecera nav .aInicio {
     text-decoration: underline; }
 
@@ -64,20 +66,25 @@ main {
 
 h2 {
   text-align: center;
+  border-radius: .1875rem;
+  border-style: groove;
   padding: 1.25rem;
   font-size: 1.875rem;
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(0, 0, 0, 0.843); }
 
-.pie .divPie {
-  background-color: black;
-  display: flex;
-  height: 6.25rem;
-  color: white;
-  justify-content: flex-end; }
-
-.imgFooter {
-  width: 3.75rem; }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; }
+  footer div {
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 1.25rem; }
+    footer div img {
+      width: 3.125rem;
+      height: 3.125rem; }
 
 .sectionInformacionb {
   margin-left: 5rem;
@@ -103,10 +110,19 @@ h2 {
         width: 6.25rem;
         height: 7.3125rem;
         border-radius: .625rem;
+        padding-bottom: .625rem;
         margin: auto;
         cursor: pointer; }
         .sectionInformacionb div article img:hover {
           transform: scale(1.1); }
+
+h2 {
+  text-align: center;
+  border-radius: .1875rem;
+  border-style: groove; }
+  h2:hover {
+    transition: 3ms;
+    color: red; }
 
 .sectionInformaciond {
   margin-left: 5rem;
@@ -184,7 +200,8 @@ h2 {
   width: 12.5rem;
   height: 18.75rem;
   background-color: rgba(255, 255, 255, 0.999);
-  border: .625rem; }
+  border: .625rem;
+  box-shadow: 0 10px 10px #d42010; }
   .cardTienda h3 {
     color: black;
     padding: 1.25rem; }
@@ -246,13 +263,14 @@ h2 {
   margin: auto; }
 
 @media (max-width: 425px) {
-  .cabecera .divNav ul a {
-    font-size: 1.5rem;
-    width: 100%; } }
+  .cabecera nav ul li a {
+    font-size: 1.25rem; } }
 
 @media (max-width: 320px) {
   .cabecera div img {
     display: none; }
   .cabecera nav ul li a {
-    font-size: 1.25rem;
-    width: 100%; } }
+    font-size: 1.125rem;
+    width: 100%; }
+  .sectionInformacionb div article p {
+    font-size: .75rem; } }
