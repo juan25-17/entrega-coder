@@ -23,6 +23,7 @@
             width: 6.25rem;
             height: 7.3125rem;
             border-radius: .625rem;
+            padding-bottom: .625rem;
             margin: auto;
             cursor: pointer;
             &:hover {
@@ -30,5 +31,14 @@
             }
         }
         }
+    }
+}
+h2 {
+    text-align: center;
+    border-radius: .1875rem;
+    border-style: groove;
+    &:hover {
+        transition: 3ms;
+        color: red;
     }
 }
